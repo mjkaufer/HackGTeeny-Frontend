@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #7f8c8d;
+    background-color: #fefefe;
+    margin-top: 2em;
+}
+
+h1, h2, h3 {
+    font-family: 'Slabo 27px', serif;
+}
+
+#navbar > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+#navbar > ul > li {
+    margin: 0 2em;
+    display: inline-block;
+    float: right;
+    border-bottom: solid #7f8c8d 2px;
+    position: relative;
+}
+
+.nav-link {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    text-decoration: none;
+}
+
+a {
+    color: #7f8c8d;
+}
+
+img {
+    border-radius: 50%;
+}
+
+#intro {
+    font-size: 4em;
+}
+
+#about {
+    text-align: center;
+}
+
+.fancy {
+    color: #9DE79C;
+    text-decoration: underline;
+}
